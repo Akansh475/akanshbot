@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, jsonify
-from chatbot import generate_reply
+from chatbot.chatbot import generate_reply
 
 app = Flask(__name__)
 
